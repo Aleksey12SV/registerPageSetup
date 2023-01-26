@@ -1,0 +1,29 @@
+$boxW: 613px;
+$loginSectionW: 741px;
+$boxMarginLeft: 86px;
+$loginSectionMarginLeft: -38px;
+$bg_clr: #f7f8ff;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(
+    (
+        100vw -
+          (
+            $boxW + $loginSectionW + 2 * $boxMarginLeft +
+              $loginSectionMarginLeft
+          )
+      ) / 2
+  );
+  margin-right: calc(
+    (
+        100vw -
+          (
+            $boxW + $loginSectionW + 2 * $boxMarginLeft +
+              $loginSectionMarginLeft
+          )
+      ) / 2
+  );
+}
+

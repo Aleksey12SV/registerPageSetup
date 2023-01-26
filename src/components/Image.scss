@@ -1,0 +1,21 @@
+.backgroundImage {
+    position: absolute;
+    width: 613px;
+    height: 817px;
+    mix-blend-mode: normal;
+    z-index: -1;
+  }
+
+.logo {
+    position: absolute;
+    z-index: 5;
+    width: 92px;
+    height: 105px;
+    margin-left: 8px;
+    margin-top: 9px;
+    margin-right: 413px;
+    margin-bottom: 721px;
+  
+    background-blend-mode: lighten;
+    mix-blend-mode: screen;
+  }

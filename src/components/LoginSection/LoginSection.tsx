@@ -5,11 +5,14 @@ import Image from '../Image/Image';
 import './LoginSection.scss';
 
 function LoginSection() {
+  const handleClick = () => {
+    window.alert('Add dropdown!');
+  };
   return (
     <div className="loginSection">
       <div className="language">
         <a href="#top">English(UK)</a>
-        <Image image={arrow} name="arrow" />
+        <Image image={arrow} name="arrow" onClick={handleClick} />
       </div>
       <UpperPart />
       <LowerPart />

@@ -13,7 +13,6 @@ function Form() {
 
   function handleSubmit(event: SyntheticEvent) {
     event.preventDefault();
-    // eslint-disable-next-line no-console
     console.log(accountInfo);
   }
 

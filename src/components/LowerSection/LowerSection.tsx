@@ -1,12 +1,11 @@
-import "./LowerPart.scss";
-import Form from "./Form";
-
+import './LowerSection.scss';
+import Form from '../Form/Form';
 
 function LowerPart() {
   return (
     <div className="div">
       <Form />
-      <a href="#" className="last">
+      <a href="#top" className="last">
         Already have an account? Log in
       </a>
     </div>

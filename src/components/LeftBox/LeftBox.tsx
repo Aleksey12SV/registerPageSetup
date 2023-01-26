@@ -1,7 +1,7 @@
-import backgroundImage from "../images/3Dicon.png";
-import logo from "../images/logo.png";
-import Image from "./Image";
-import "./LeftBox.scss"
+import backgroundImage from '../../assets/3Dicon.png';
+import logo from '../../assets/logo.png';
+import Image from '../Image/Image';
+import './LeftBox.scss';
 
 function LeftBox() {
   return (

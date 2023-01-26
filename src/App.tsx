@@ -1,7 +1,7 @@
 import './App.scss';
 
-import LeftBox from './components/LeftBox';
-import LoginSection from './components/LoginSection';
+import LeftBox from './components/LeftBox/LeftBox';
+import LoginSection from './components/LoginSection/LoginSection';
 
 function App() {
   return (

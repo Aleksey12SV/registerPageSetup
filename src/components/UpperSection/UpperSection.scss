@@ -1,0 +1,43 @@
+.title {
+    width: 268px;
+    height: 30px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+  
+    letter-spacing: 0.15em;
+    margin-left: 249px;
+    margin-right: 224px;
+    margin-bottom: 49px;
+  
+    color: #000000;
+  }
+
+  .sign {
+    display: flex;
+    flex-direction: row;
+    gap: 49px;
+  }
+  
+.or{
+    width: auto;
+    margin-top: 46px;
+    margin-bottom: 80px;
+    height: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 0px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    
+    color: #000000;
+}

@@ -1,14 +1,15 @@
 import './LowerSection.scss';
 import Form from '../Form/Form';
+import Wrapper from '../Wrapper/Wrapper';
 
 function LowerPart() {
   return (
-    <div className="div">
+    <Wrapper cssName='div'>
       <Form />
       <a href="#top" className="last">
         Already have an account? Log in
       </a>
-    </div>
+    </Wrapper>
   );
 }
 export default LowerPart;

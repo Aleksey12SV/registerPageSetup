@@ -2,6 +2,7 @@ import SignUpButton from '../SignUpButton/SignUpButton';
 import google from '../../assets/google.png';
 import facebook from '../../assets/facebook.png';
 import './UpperSection.scss';
+import Wrapper from '../Wrapper/Wrapper';
 
 function UpperSection() {
   const companies = [google, facebook];
@@ -19,7 +20,7 @@ function UpperSection() {
   return (
     <>
       <h2 className="title">Create Account</h2>
-      <div className="sign">{listButtons}</div>
+      <Wrapper cssName='sign'>{listButtons}</Wrapper>
       <p className="or">-OR-</p>
     </>
   );

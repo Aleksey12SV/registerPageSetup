@@ -14,6 +14,7 @@ function Form() {
   function handleSubmit(event: SyntheticEvent) {
     event.preventDefault();
     console.log(accountInfo);
+    window.alert(JSON.stringify(accountInfo));
   }
 
   return (

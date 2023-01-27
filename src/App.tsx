@@ -2,14 +2,24 @@ import './App.scss';
 
 import LeftBox from './components/LeftBox/LeftBox';
 import LoginSection from './components/LoginSection/LoginSection';
+import Wrapper from './components/Wrapper/Wrapper';
 
-function App() {
+export function App() {
   return (
-    <div className="wrapper">
+    <>
       <LeftBox />
       <LoginSection />
-    </div>
+    </>
   );
 }
 
-export default App;
+function WrappedApp() {
+  return (
+    <Wrapper cssName="wrapper">
+      <LeftBox />
+      <LoginSection />
+    </Wrapper>
+  );
+}
+
+export default WrappedApp;

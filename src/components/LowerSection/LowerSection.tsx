@@ -3,10 +3,13 @@ import Form from '../Form/Form';
 import Wrapper from '../Wrapper/Wrapper';
 
 function LowerPart() {
+  const handleClick = () => {
+    window.alert('Login');
+  };
   return (
-    <Wrapper cssName='div'>
+    <Wrapper cssName="div">
       <Form />
-      <a href="#top" className="last">
+      <a href="#top" className="last" onClick={handleClick}>
         Already have an account? Log in
       </a>
     </Wrapper>
